@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                cp Jenkinsfile /Users/mac
+                cp Jenkinsfile /Users/mac/
             }
         }
     }
