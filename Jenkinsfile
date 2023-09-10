@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo "Deploy"
+                cp Jenkinsfile /Users/mac
             }
         }
     }
