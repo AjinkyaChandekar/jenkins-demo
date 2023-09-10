@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                ls -l
+                sh './copy.sh'
             }
         }
     }
