@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                sh './copy.sh'
+                sh 'cp /Users/mac/JenkinsHome/workspace/pipeline2/README.txt /Users/mac'
             }
         }
     }
